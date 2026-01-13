@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Language Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form onsubmit="register(event)">
+    <h2>Language Registration</h2>
+
+    <input type="text" id="name" placeholder="Enter Name" required>
+    <input type="email" id="email" placeholder="Enter Email" required>
+
+    <p>Select Languages:</p>
+    <input type="checkbox" value="Python" class="lang"> Python<br>
+    <input type="checkbox" value="Java" class="lang"> Java<br>
+    <input type="checkbox" value="DSA" class="lang"> DSA<br>
+    <input type="checkbox" value="C++" class="lang"> C++<br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
